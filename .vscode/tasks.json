@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Tests",
+      "type": "shell",
+      "command": "D:\\flutter\\bin\\flutter.bat test",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      }
+    },
+    {
+      "label": "Flutter Analyze",
+      "type": "shell",
+      "command": "D:\\flutter\\bin\\flutter.bat analyze",
+      "problemMatcher": "$dart-analyze"
+    }
+  ]
+}
